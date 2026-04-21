@@ -120,11 +120,23 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 py-6 text-center text-sm text-gray-500">
-        <p>
-          placeholder-image — Free Placeholder Image Generator. No signup
-          required.
-        </p>
+      <footer className="border-t border-gray-200 py-8 text-center">
+        <div className="max-w-3xl mx-auto px-4">
+          <p className="text-sm text-gray-500 mb-4">Placeholder Image Generator — Free online tool. No signup required.</p>
+          <div className="mb-4">
+            <p className="text-xs text-gray-400 mb-2">Related Tools</p>
+            <div className="flex flex-wrap justify-center gap-2">
+              <a href="https://favicon-generator-psi.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Favicon Generator</a>
+              <a href="https://image-compressor-eight-tawny.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Image Compressor</a>
+              <a href="https://svg-to-png-six.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">SVG to PNG</a>
+              <a href="https://qr-generator-ten-wheat.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">QR Code Generator</a>
+              <a href="https://aspect-ratio-pi.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Aspect Ratio Calculator</a>
+            </div>
+          </div>
+          <div className="flex justify-center gap-3 text-xs text-gray-400">
+            <a href="https://cc-tools.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600">53+ Free Tools →</a>
+          </div>
+        </div>
       </footer>
 
       {/* AdSense slot - bottom banner */}
